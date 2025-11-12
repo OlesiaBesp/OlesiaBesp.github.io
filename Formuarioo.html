@@ -6,6 +6,9 @@
     <title> Formulario </title>
 </head>
 <body>
+    <form action="http://ncoge.com/phps/formulario.php" method="post">
+
+    
     <table  width= 100%>
         <tr>
             <td>
@@ -21,8 +24,9 @@
                         Correo: <input type="text" name="Correo">
                         <br>
                         <br>
-                        Hobbies: <textarea cols="50" rows="5" name="Hobbies"></textarea> 
+                        Hobbies: <textarea cols="50" rows="5" name="Hobbies"> </textarea>
                 </fieldset>
+            <input type="reset" name="limpiar" value="borrar datos del formulario"/>
             </td>
             <td>
                <fieldset>
@@ -79,19 +83,19 @@
                     </fieldset>
 
                 <fieldset>
-                    <legend>Trabajo en los siguientes sistemas operativos:</legend>
+                    <legend>Trabajo en los siguientes sistemas operativos:
+
+                    </legend>
                         <select name="so" id="so">
                         <option value="windows">Windows</option>
                         <option value="Linux">Linux</option>
                         <option value="Ubuntu">Ubuntu</option>
                         <option value="otro">Otro</option>   
-                  
-                </fieldset>           
-            </td>
-            </fieldset>
-        </tr>
-        <tr>
+            </td>      
+                </fieldset>  
+                </tr>       
+         </form>   
 
-        </tr>
     </table>
-    
+</body>
+</html>
