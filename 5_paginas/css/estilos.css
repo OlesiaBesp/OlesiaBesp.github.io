@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    background-image: url(../images/fondo.jpg);
+    background-size: 100%;
+    font-family: "Science Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "CTRS" 0;
+}   
+
+
+
+h1 {
+    background-color: gray;
+    border-left: 15px solid red;
+    font-size: 50px;
+    color: white;
+
+}
+
+img {
+    border: 7px solid black;
+    border-radius: 30px;
+    border: 10px 10px 8px 0 rgba(0, 0, 0, 0.2), 80px 80px px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+
+ul {
+   
+
+}
+
+li {
+  display: inline;
+  padding: 5px;
+  border: 2px solid rgb(0, 0, 0);
+}
+
